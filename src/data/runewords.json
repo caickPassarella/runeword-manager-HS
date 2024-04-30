@@ -1,0 +1,281 @@
+{
+  "Arcane Bastion": {
+    "runeword": ["Lum", "Gul", "Ert", "Sal"],
+    "type": "placeholder",
+    "img": "./src/assets/runewords/runeword1.png"
+  },
+  "Big Joe": {
+    "runeword": ["Xo", "lo", "Fel", "Tul", "Hel", "Naf"],
+    "type": "placeholder"
+  },
+  "Bubonic Plague’s Pledge": {
+    "runeword": ["Gul", "Gul", "Zed", "Jah", "Jah"],
+    "type": "placeholder"
+  },
+  "Crematorium’s Pledge": {
+    "runeword": ["Vex", "Sur", "Sur", "Jah", "Ber"],
+    "type": "placeholder"
+  },
+  "Divinity": {
+    "runeword": ["Co", "Vex", "Pul", "Thal"],
+    "type": "placeholder"
+  },
+  "Fortress": {
+    "runeword": ["Ol", "Sal", "Del", "Xo"],
+    "type": "placeholder"
+  },
+  "Hydrangea": {
+    "runeword": ["Zed", "Tul", "Zed"],
+    "type": "placeholder",
+    "img": "./src/assets/runewords/runeword1.png"
+  },
+  "Arcanum": {
+    "runeword": ["Sur", "Ber", "Gul", "Sal", "Ist", "Lum"],
+    "type": "placeholder"
+  },
+  "Breath of the Damned": {
+    "runeword": ["Vex", "Hel", "Ol", "Old", "Zed", "Eth"],
+    "type": "placeholder"
+  },
+  "Carnage": {
+    "runeword": ["Pul", "Lum", "Ber", "Mal"],
+    "type": "placeholder"
+  },
+  "Delirium Tremens": {
+    "runeword": ["Vex", "Vex"],
+    "type": "placeholder"
+  },
+  "Epilogue": {
+    "runeword": ["Vex", "Ymn", "Gul"],
+    "type": "placeholder"
+  },
+  "Ghost": {
+    "runeword": ["Sal", "Mal"],
+    "type": "placeholder"
+  },
+  "Inner Fire": {
+    "runeword": ["Tor", "Old", "Rex", "Nut"],
+    "type": "placeholder"
+  },
+  "Ascendancy": {
+    "runeword": ["Io", "Gul", "Ist"],
+    "type": "placeholder"
+  },
+  "Brilliance": {
+    "runeword": ["Lum", "Tor"],
+    "type": "placeholder"
+  },
+  "Catastrophe": {
+    "runeword": ["Pul", "Um", "Sur", "Ber", "Lum"],
+    "type": "placeholder"
+  },
+  "Deus Ex Machina": {
+    "runeword": ["Jah", "Qi", "Tor"],
+    "type": "placeholder"
+  },
+  "Flesh Ripper": {
+    "runeword": ["Ymn", "Nut"],
+    "type": "placeholder"
+  },
+  "Gladstone Goose's Jacket": {
+    "runeword": ["Fel", "Um", "Pul", "Sal"],
+    "type": "placeholder"
+  },
+  "Judge": {
+    "runeword": ["Fel", "Qi", "Ert", "Jah"],
+    "type": "placeholder"
+  },
+  "Atonement": {
+    "runeword": ["Vex", "Xo", "Ber", "Jah", "Co"],
+    "type": "placeholder"
+  },
+  "Bristle": {
+    "runeword": ["Rex", "Qi", "Sur", "Eth"],
+    "type": "placeholder"
+  },
+  "Celestus": {
+    "runeword": ["Sur", "Hel"],
+    "type": "placeholder"
+  },
+  "Disaster": {
+    "runeword": ["Jah", "Um", "Jah", "Sur", "Ist", "Zed"],
+    "type": "placeholder"
+  },
+  "Flowing Sands": {
+    "runeword": ["Vex", "Tor", "Old", "Thal", "Hel", "Xo"],
+    "type": "placeholder"
+  },
+  "Harvester": {
+    "runeword": ["Vex", "Sur", "Eth", "Sal", "Jah"],
+    "type": "placeholder"
+  },
+  "Justice": {
+    "runeword": ["Drax", "Zed", "Sur"],
+    "type": "placeholder"
+  },
+  "Aurora’s Might": {
+    "runeword": ["Ymn", "Co", "Fel"],
+    "type": "placeholder"
+  },
+  "Brutality": {
+    "runeword": ["Nut", "Nut", "Fel", "Ymn"],
+    "type": "placeholder"
+  },
+  "Conquest": {
+    "runeword": ["Sal", "Ymn", "Co", "Um"],
+    "type": "placeholder"
+  },
+  "Divine Contemplation": {
+    "runeword": ["Rex", "Ert", "Tul"],
+    "type": "placeholder"
+  },
+  "Force": {
+    "runeword": ["Del", "Um", "Ber", "Ist"],
+    "type": "placeholder"
+  },
+  "Havoc": {
+    "runeword": ["Vex", "Qi", "Ist", "Del"],
+    "type": "placeholder"
+  },
+  "Kogarasumaru": {
+    "runeword": ["Um", "Gul", "Qi", "Vex", "Old"],
+    "type": "placeholder"
+  },
+  "Legionnaire": {
+    "runeword": ["Xo", "Qi", "Gul"],
+    "type": "placeholder"
+  },
+  "Mirage": {
+    "runeword": ["Vex", "Vex", "Xo", "Jah"],
+    "type": "placeholder"
+  },
+  "Paradox": {
+    "runeword": ["Ist", "Vex"],
+    "type": "placeholder"
+  },
+  "Rainbow": {
+    "runeword": ["Io", "Jah", "Pul"],
+    "type": "placeholder"
+  },
+  "Shelter": {
+    "runeword": ["Co", "Co", "Mal"],
+    "type": "placeholder"
+  },
+  "Sovereignty": {
+    "runeword": ["Drax", "Lum", "Pul", "Ol"],
+    "type": "placeholder"
+  },
+  "Valkyrie": {
+    "runeword": ["Qi", "Lem", "Old"],
+    "type": "placeholder"
+  },
+  "Lightforge": {
+    "runeword": ["Naf", "Sal", "Uth"],
+    "type": "placeholder"
+  },
+  "Mjolner": {
+    "runeword": ["Ert", "Ert", "Fel", "Gul"],
+    "type": "placeholder"
+  },
+  "Perdition": {
+    "runeword": ["Hel", "Qi", "Um", "Xo", "Drax"],
+    "type": "placeholder"
+  },
+  "Ravager": {
+    "runeword": ["Mal", "Um", "Gul", "Fel"],
+    "type": "placeholder"
+  },
+  "Shroud of Elements": {
+    "runeword": ["Nut", "Um", "Pul", "Lum"],
+    "type": "placeholder"
+  },
+  "Thinking Cap": {
+    "runeword": ["Nut", "Io", "Thal"],
+    "type": "placeholder"
+  },
+  "Virulence": {
+    "runeword": ["Tul", "Sur", "Sal"],
+    "type": "placeholder"
+  },
+  "Malice": {
+    "runeword": ["Uth", "Ol", "Eth"],
+    "type": "placeholder"
+  },
+  "Mystify": {
+    "runeword": ["Hel", "Ymn", "Naf"],
+    "type": "placeholder"
+  },
+  "Potency": {
+    "runeword": ["Ymn", "Nut", "Jah", "Xo"],
+    "type": "placeholder"
+  },
+  "Revelation": {
+    "runeword": ["Lum", "Io", "Sal", "Eth"],
+    "type": "placeholder"
+  },
+  "Shroud of Enigma": {
+    "runeword": ["Jah", "Uch", "Ber"],
+    "type": "placeholder"
+  },
+  "Torment": {
+    "runeword": ["Del", "Io"],
+    "type": "placeholder"
+  },
+  "Will of Thanos": {
+    "runeword": ["Ymn", "Rex", "Mal", "Ist", "Qi"],
+    "type": "placeholder"
+  },
+  "Martyr": {
+    "runeword": ["Thal", "Sal", "Ymn", "Lum"],
+    "type": "placeholder"
+  },
+  "Ninja Tabi": {
+    "runeword": ["Zed", "Ber"],
+    "type": "placeholder"
+  },
+  "Preacher": {
+    "runeword": ["Rex", "Tor", "Tul", "Sal"],
+    "type": "placeholder"
+  },
+  "Scholar": {
+    "runeword": ["Ert", "Sal"],
+    "type": "placeholder",
+    "img": "./src/assets/runewords/runeword1.png"
+  },
+  "Skysong": {
+    "runeword": ["Uth", "Sal", "Nut", "Rex"],
+    "type": "placeholder"
+  },
+  "Trapped Vessel": {
+    "runeword": ["Lum", "Lum", "Tul"],
+    "type": "placeholder"
+  },
+  "Windstride": {
+    "runeword": ["Del", "Old", "Hel", "Ist", "Tor", "Vex"],
+    "type": "placeholder"
+  },
+  "Mayhem": {
+    "runeword": ["Nut", "Um", "Thal"],
+    "type": "placeholder"
+  },
+  "Nirvana": {
+    "runeword": ["Sur", "Sur", "Drax"],
+    "type": "placeholder"
+  },
+  "Quickstep": {
+    "runeword": ["Ymn", "Del"],
+    "type": "placeholder"
+  },
+  "Shadow": {
+    "runeword": ["Tul", "Eth"],
+    "type": "placeholder"
+  },
+  "Sleight": {
+    "runeword": ["Tor", "Uth", "Sal", "Co"],
+    "type": "placeholder"
+  },
+  "True Aim": {
+    "runeword": ["Jah", "Xo", "Mal", "Gul"],
+    "type": "placeholder"
+  }
+}
