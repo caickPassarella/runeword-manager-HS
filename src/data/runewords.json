@@ -302,7 +302,7 @@
   "Skysong": {
     "runeword": ["Uth", "Sal", "Nut", "Rex"],
     "type": "shield",
-    "img": "./"
+    "img": "/static/assets/runewords/skysong.png"
   },
   "Trapped Vessel": {
     "runeword": ["Lum", "Lum", "Tul"],
