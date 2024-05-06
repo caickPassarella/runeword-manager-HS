@@ -7,12 +7,13 @@ import styled from "styled-components";
 const RuneListContainer = styled.div`
   display: flex;
   flex-direction: column;
+  gap: 12px;
 `;
 
 const Container = styled.div`
   display: flex;
   flex-direction: row;
-  padding: 20px;
+  padding: 40px;
   justify-content: flex-start;
 `;
 

@@ -12,26 +12,16 @@ export const Container = styled.section`
   flex-direction: row;
 `;
 
-export const InputContainer = styled.div`
-  display: flex;
-  align-items: center;
-  background: white;
-  border: 1px solid #424242;
-  border-radius: 2px;
-`;
-
-export const Label = styled.label`
-  color: ${(props) => (props.runecolor ? props.runecolor : "#ffff")};
-  font-weight: 200;
-`;
-
 export const Input = styled.input`
-  width: 28px;
-  height: 28px;
-  border: none;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  opacity: 75%;
+  padding-left: 20px;
   outline: none;
   color: #ffff;
-  text-align: center;
+  font-size: 18px;
+  text-align: left;
   &::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
@@ -42,27 +32,13 @@ export const Input = styled.input`
   }
 `;
 
-export const SpinnerButton = styled.button`
-  width: 28px;
-  height: 28px;
-  border: none;
-  color: #ffff;
-  cursor: pointer;
-  &:hover {
-    opacity: 90%;
-  }
-`;
-
-export const RuneWrapper = styled.div`
-  padding: 8px;
-`;
-
 export const ButtonWrapper = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-left: 32px;
+  justify-content: left;
   color: #ffff;
+  padding-bottom: 10px;
+  gap: 20px;
 `;
 
 export const Button = styled.button`
@@ -76,11 +52,19 @@ export const Button = styled.button`
   transition: 300ms;
   transform: translateY(0);
   cursor: pointer;
-  width: 200px;
-  margin-right: 32px;
   &:hover {
     transition: 300ms;
-    padding: 10px 29px;
+    transform: translateY(-0px);
+    color: #242322;
+    background-color: #ffff;
+    border: solid 1px #bfbfbf;
+  }
+`;
+
+export const ClearButton = styled(Button)`
+  padding: 10px;
+  &:hover {
+    transition: 300ms;
     transform: translateY(-0px);
     color: #242322;
     background-color: #ffff;

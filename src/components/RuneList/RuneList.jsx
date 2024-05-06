@@ -1,76 +1,69 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
 import { findCraftableRunewords } from "../../scripts/availableRunewords";
-import allRunewords from "../../data/runewords.json";
-
-import {
-  Container,
-  Wrapper,
-  Label,
-  Input,
-  RuneWrapper,
-  InputContainer,
-  SpinnerButton,
-  ButtonWrapper,
-  Button,
-} from "./styles";
 
 import { Checkbox } from "pretty-checkbox-react";
 import "@djthoms/pretty-checkbox";
 
-const Rune = ({ rune, setRuneCount, runecolor }) => {
-  const [value, setValue] = useState(0);
-
-  const handleIncrement = () => {
-    const runeAmount = value + 1;
-    setValue(runeAmount);
-    setRuneCount((prev) => ({ ...prev, [rune]: parseInt(runeAmount) }));
-  };
-
-  const handleDecrement = () => {
-    const runeAmount = Math.max(value - 1, 0);
-    setValue(runeAmount);
-    setRuneCount((prev) => ({ ...prev, [rune]: parseInt(runeAmount) }));
-  };
-
-  const handleChange = (event) => {
-    const newValue = event.target.value;
-    setRuneCount((prev) => ({ ...prev, [rune]: parseInt(newValue) }));
-    if (newValue === "") {
-      setRuneCount((prev) => ({ ...prev, [rune]: parseInt(0) }));
-      setValue("");
-    } else {
-      setValue(parseInt(newValue));
-    }
-  };
-
-  return (
-    <RuneWrapper>
-      <Label runecolor={runecolor}>{rune}</Label>
-      <InputContainer>
-        <SpinnerButton onClick={handleDecrement}>-</SpinnerButton>
-        <Input type="number" value={value} onChange={handleChange} />
-        <SpinnerButton onClick={handleIncrement}>+</SpinnerButton>
-      </InputContainer>
-    </RuneWrapper>
-  );
-};
-
-Rune.propTypes = {
-  rune: PropTypes.string,
-  setRuneCount: PropTypes.func,
-  runecolor: PropTypes.string,
-};
+import {
+  Container,
+  Wrapper,
+  ButtonWrapper,
+  ClearButton,
+  Input,
+} from "./styles";
+import { Rune } from "../Rune/rune";
 
 export const RuneList = ({ setAvailableRunewords }) => {
   const [runeCount, setRuneCount] = useState({});
+  const [recipeIsEnabled, setRecipeIsEnabled] = useState(false);
+  const [userSearchInput, setUserSearchInput] = useState("");
+  const [clearRunes, setClearRunes] = useState(0);
+  const [selectedType, setSelectedType] = useState([]);
 
-  const handleFindRuneword = () => {
-    const craftableRunewords = findCraftableRunewords(runeCount, allRunewords);
-    setAvailableRunewords(craftableRunewords);
-    console.log(craftableRunewords);
+  const handleClearRunes = () => {
+    setClearRunes((prev) => prev + 1); // Action to trigger a state change
+    setSelectedType([]);
   };
+
+  const handleFilterRuneword = (type, checked) => {
+    if (selectedType.indexOf(type) === -1) {
+      setSelectedType((prevValue) => [...prevValue, type]);
+    } else if (!checked && selectedType.indexOf(type) !== -1) {
+      setSelectedType((prevValue) =>
+        prevValue.filter((runewordType) => runewordType !== type)
+      );
+    }
+    console.log(selectedType);
+  };
+
+  useEffect(() => {
+    const returnedRunewords = findCraftableRunewords(
+      runeCount,
+      recipeIsEnabled
+    );
+    if (selectedType.length !== 0) {
+      const filteredRunewords = Object.entries(returnedRunewords).reduce(
+        (newObj, [key, value]) => {
+          if (selectedType.indexOf(value.type) !== -1) {
+            newObj[key] = value;
+          }
+          return newObj;
+        },
+        {}
+      );
+      setAvailableRunewords(filteredRunewords);
+      return;
+    }
+    setAvailableRunewords(returnedRunewords);
+  }, [
+    clearRunes,
+    recipeIsEnabled,
+    runeCount,
+    setAvailableRunewords,
+    selectedType,
+  ]);
 
   const commonRunes = [
     "Ol",
@@ -92,8 +85,39 @@ export const RuneList = ({ setAvailableRunewords }) => {
 
   const rareRunes = ["Qi", "Sur", "Jah", "Xo", "Ber", "Drax", "Zed"];
 
+  const types = ["Weapon", "Shield", "Helmet", "Boots", "Armor"];
+
   return (
     <>
+      <ButtonWrapper>
+        <Input
+          placeholder="Search rune"
+          onChange={(e) => {
+            setUserSearchInput(e.target.value.toLowerCase());
+          }}
+        />
+        <Checkbox
+          onChange={() => setRecipeIsEnabled(!recipeIsEnabled)}
+          color="white"
+        >
+          3 to 1 recipe
+        </Checkbox>
+        <ClearButton onClick={handleClearRunes}>Clear</ClearButton>
+      </ButtonWrapper>
+      <ButtonWrapper>
+        {types.map((type) => (
+          <Checkbox
+            key={type}
+            onChange={(e) => {
+              handleFilterRuneword(type.toLowerCase(), e.target.checked);
+            }}
+            color="white"
+            checked={selectedType.includes(type.toLowerCase())}
+          >
+            {type}
+          </Checkbox>
+        ))}
+      </ButtonWrapper>
       <Container>
         <Wrapper>
           {commonRunes.map((rune) => (
@@ -102,6 +126,8 @@ export const RuneList = ({ setAvailableRunewords }) => {
               rune={rune}
               setRuneCount={setRuneCount}
               runecolor="#ffff"
+              shouldHighlight={rune.toLowerCase() === userSearchInput}
+              clearRunes={clearRunes}
             />
           ))}
         </Wrapper>
@@ -112,6 +138,8 @@ export const RuneList = ({ setAvailableRunewords }) => {
               rune={rune}
               setRuneCount={setRuneCount}
               runecolor="#f2b6b6"
+              shouldHighlight={rune.toLowerCase() === userSearchInput}
+              clearRunes={clearRunes}
             />
           ))}
         </Wrapper>
@@ -122,6 +150,8 @@ export const RuneList = ({ setAvailableRunewords }) => {
               rune={rune}
               setRuneCount={setRuneCount}
               runecolor="#de6868"
+              shouldHighlight={rune.toLowerCase() === userSearchInput}
+              clearRunes={clearRunes}
             />
           ))}
         </Wrapper>
@@ -132,14 +162,12 @@ export const RuneList = ({ setAvailableRunewords }) => {
               rune={rune}
               setRuneCount={setRuneCount}
               runecolor="#68dec0"
+              shouldHighlight={rune.toLowerCase() === userSearchInput}
+              clearRunes={clearRunes}
             />
           ))}
         </Wrapper>
       </Container>
-      <ButtonWrapper>
-        <Button onClick={handleFindRuneword}>Find Runewords</Button>
-        <Checkbox color="white">Test</Checkbox>
-      </ButtonWrapper>
     </>
   );
 };
