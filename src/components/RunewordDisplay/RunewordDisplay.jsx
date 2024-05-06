@@ -25,12 +25,12 @@ export const RunewordDisplay = ({ availableRunewords }) => {
       {Object.entries(availableRunewords).map(([key, value]) => (
         <RunewordItemDisplay key={key}>
           <H2>{key}</H2>
-          <TooltipWrapper>
+          {/* <TooltipWrapper>
             <H3>{value.runeword.join(" - ")}</H3>
             <Tooltip width={tooltipWidth} ref={tooltipRef}>
               {`3 drax: 1 Zed\n3 thal: 1 sur`}
             </Tooltip>
-          </TooltipWrapper>
+          </TooltipWrapper> */}
           <Img src={value.img} />
         </RunewordItemDisplay>
       ))}
