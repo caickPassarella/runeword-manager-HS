@@ -17,7 +17,7 @@
   "Crematorium’s Pledge": {
     "runeword": ["Vex", "Sur", "Sur", "Jah", "Ber"],
     "type": "shield",
-    "img": "/static/assets/runewords/CrematoriumPledge.png"
+    "img": "/static/assets/runewords/crematoriumPledge.png"
   },
   "Divinity": {
     "runeword": ["Co", "Vex", "Pul", "Thal"],
