@@ -2,346 +2,346 @@
   "Arcane Bastion": {
     "runeword": ["Lum", "Gul", "Ert", "Sal"],
     "type": "shield",
-    "img": "./src/assets/runewords/arcaneBastion.png"
+    "img": "/static/assets/runewords/arcaneBastion.png"
   },
   "Big Joe": {
     "runeword": ["Xo", "lo", "Fel", "Tul", "Hel", "Naf"],
     "type": "weapon",
-    "img": "./src/assets/runewords/bigJoe.png"
+    "img": "/static/assets/runewords/bigJoe.png"
   },
   "Bubonic Plague’s Pledge": {
     "runeword": ["Gul", "Gul", "Zed", "Jah", "Jah"],
     "type": "shield",
-    "img": "./src/assets/runewords/bubonicPlaguesPledge.png"
+    "img": "/static/assets/runewords/bubonicPlaguesPledge.png"
   },
   "Crematorium’s Pledge": {
     "runeword": ["Vex", "Sur", "Sur", "Jah", "Ber"],
     "type": "shield",
-    "img": "./src/assets/runewords/CrematoriumPledge.png"
+    "img": "/static/assets/runewords/CrematoriumPledge.png"
   },
   "Divinity": {
     "runeword": ["Co", "Vex", "Pul", "Thal"],
     "type": "weapon",
-    "img": "./src/assets/runewords/divinity.png"
+    "img": "/static/assets/runewords/divinity.png"
   },
   "Fortress": {
     "runeword": ["Ol", "Sal", "Del", "Xo"],
     "type": "armor",
-    "img": "./src/assets/runewords/fortress.png"
+    "img": "/static/assets/runewords/fortress.png"
   },
   "Hydrangea": {
     "runeword": ["Zed", "Tul", "Zed"],
     "type": "weapon",
-    "img": "./src/assets/runewords/hydrangea.png"
+    "img": "/static/assets/runewords/hydrangea.png"
   },
   "Arcanum": {
     "runeword": ["Sur", "Ber", "Gul", "Sal", "Ist", "Lum"],
     "type": "weapon",
-    "img": "./src/assets/runewords/arcanum.png"
+    "img": "/static/assets/runewords/arcanum.png"
   },
   "Breath of the Damned": {
     "runeword": ["Vex", "Hel", "Ol", "Old", "Zed", "Eth"],
     "type": "weapon",
-    "img": "./src/assets/runewords/breathOfTheDamned.png"
+    "img": "/static/assets/runewords/breathOfTheDamned.png"
   },
   "Carnage": {
     "runeword": ["Pul", "Lum", "Ber", "Mal"],
     "type": "weapon",
-    "img": "./src/assets/runewords/carnage.png"
+    "img": "/static/assets/runewords/carnage.png"
   },
   "Delirium Tremens": {
     "runeword": ["Vex", "Vex"],
     "type": "helmet",
-    "img": "./src/assets/runewords/deliriumTremens.png"
+    "img": "/static/assets/runewords/deliriumTremens.png"
   },
   "Epilogue": {
     "runeword": ["Vex", "Ymn", "Gul"],
     "type": "weapon",
-    "img": "./src/assets/runewords/epilogue.png"
+    "img": "/static/assets/runewords/epilogue.png"
   },
   "Ghost": {
     "runeword": ["Sal", "Mal"],
     "type": "boots",
-    "img": "./src/assets/runewords/ghost.png"
+    "img": "/static/assets/runewords/ghost.png"
   },
   "Inner Fire": {
     "runeword": ["Tor", "Old", "Rex", "Nut"],
     "type": "weapon",
-    "img": "./src/assets/runewords/innerFire.png"
+    "img": "/static/assets/runewords/innerFire.png"
   },
   "Ascendancy": {
     "runeword": ["Io", "Gul", "Ist"],
     "type": "weapon",
-    "img": "./src/assets/runewords/ascendancy.png"
+    "img": "/static/assets/runewords/ascendancy.png"
   },
   "Brilliance": {
     "runeword": ["Lum", "Tor"],
     "type": "weapon",
-    "img": "./src/assets/runewords/brilliance.png"
+    "img": "/static/assets/runewords/brilliance.png"
   },
   "Catastrophe": {
     "runeword": ["Pul", "Um", "Sur", "Ber", "Lum"],
     "type": "weapon",
-    "img": "./src/assets/runewords/catastrophe.png"
+    "img": "/static/assets/runewords/catastrophe.png"
   },
   "Deus Ex Machina": {
     "runeword": ["Jah", "Qi", "Tor"],
     "type": "weapon",
-    "img": "./src/assets/runewords/deusExMachina.png"
+    "img": "/static/assets/runewords/deusExMachina.png"
   },
   "Flesh Ripper": {
     "runeword": ["Ymn", "Nut"],
     "type": "helmet",
-    "img": "./src/assets/runewords/fleshRipper.png"
+    "img": "/static/assets/runewords/fleshRipper.png"
   },
   "Gladstone Goose's Jacket": {
     "runeword": ["Fel", "Um", "Pul", "Sal"],
     "type": "armor",
-    "img": "./src/assets/runewords/gladstoneGoosesJacket.png"
+    "img": "/static/assets/runewords/gladstoneGoosesJacket.png"
   },
   "Judge": {
     "runeword": ["Fel", "Qi", "Ert", "Jah"],
     "type": "weapon",
-    "img": "./src/assets/runewords/judge.png"
+    "img": "/static/assets/runewords/judge.png"
   },
   "Atonement": {
     "runeword": ["Vex", "Xo", "Ber", "Jah", "Co"],
     "type": "weapon",
-    "img": "./src/assets/runewords/atonement.png"
+    "img": "/static/assets/runewords/atonement.png"
   },
   "Bristle": {
     "runeword": ["Rex", "Qi", "Sur", "Eth"],
     "type": "armor",
-    "img": "./src/assets/runewords/bristle.png"
+    "img": "/static/assets/runewords/bristle.png"
   },
   "Celestus": {
     "runeword": ["Sur", "Hel"],
     "type": "weapon",
-    "img": "./src/assets/runewords/celestus.png"
+    "img": "/static/assets/runewords/celestus.png"
   },
   "Disaster": {
     "runeword": ["Jah", "Um", "Jah", "Sur", "Ist", "Zed"],
     "type": "weapon",
-    "img": "./src/assets/runewords/disaster.png"
+    "img": "/static/assets/runewords/disaster.png"
   },
   "Flowing Sands": {
     "runeword": ["Vex", "Tor", "Old", "Thal", "Hel", "Xo"],
     "type": "weapon",
-    "img": "./src/assets/runewords/flowingSands.png"
+    "img": "/static/assets/runewords/flowingSands.png"
   },
   "Harvester": {
     "runeword": ["Vex", "Sur", "Eth", "Sal", "Jah"],
     "type": "weapon",
-    "img": "./src/assets/runewords/harvester.png"
+    "img": "/static/assets/runewords/harvester.png"
   },
   "Justice": {
     "runeword": ["Drax", "Zed", "Sur"],
     "type": "shield",
-    "img": "./src/assets/runewords/justice.png"
+    "img": "/static/assets/runewords/justice.png"
   },
   "Aurora’s Might": {
     "runeword": ["Ymn", "Co", "Fel"],
     "type": "weapon",
-    "img": "./src/assets/runewords/aurorasMight.png"
+    "img": "/static/assets/runewords/aurorasMight.png"
   },
   "Brutality": {
     "runeword": ["Nut", "Nut", "Fel", "Ymn"],
     "type": "weapon",
-    "img": "./src/assets/runewords/brutality.png"
+    "img": "/static/assets/runewords/brutality.png"
   },
   "Conquest": {
     "runeword": ["Sal", "Ymn", "Co", "Um"],
     "type": "weapon",
-    "img": "./src/assets/runewords/conquest.png"
+    "img": "/static/assets/runewords/conquest.png"
   },
   "Divine Contemplation": {
     "runeword": ["Rex", "Ert", "Tul"],
     "type": "shield",
-    "img": "./src/assets/runewords/divineComtemplation.png"
+    "img": "/static/assets/runewords/divineComtemplation.png"
   },
   "Force": {
     "runeword": ["Del", "Um", "Ber", "Ist"],
     "type": "armor",
-    "img": "./src/assets/runewords/force.png"
+    "img": "/static/assets/runewords/force.png"
   },
   "Havoc": {
     "runeword": ["Vex", "Qi", "Ist", "Del"],
     "type": "shield",
-    "img": "./src/assets/runewords/havoc.png"
+    "img": "/static/assets/runewords/havoc.png"
   },
   "Kogarasumaru": {
     "runeword": ["Um", "Gul", "Qi", "Vex", "Old"],
     "type": "weapon",
-    "img": "./src/assets/runewords/kogarasumaru.png"
+    "img": "/static/assets/runewords/kogarasumaru.png"
   },
   "Legionnaire": {
     "runeword": ["Xo", "Qi", "Gul"],
     "type": "helmet",
-    "img": "./src/assets/runewords/legionnaire.png"
+    "img": "/static/assets/runewords/legionnaire.png"
   },
   "Mirage": {
     "runeword": ["Vex", "Vex", "Xo", "Jah"],
     "type": "shield",
-    "img": "./src/assets/runewords/mirage.png"
+    "img": "/static/assets/runewords/mirage.png"
   },
   "Paradox": {
     "runeword": ["Ist", "Vex"],
     "type": "boots",
-    "img": "./src/assets/runewords/paradox.png"
+    "img": "/static/assets/runewords/paradox.png"
   },
   "Rainbow": {
     "runeword": ["Io", "Jah", "Pul"],
     "type": "helmet",
-    "img": "./src/assets/runewords/rainbow.png"
+    "img": "/static/assets/runewords/rainbow.png"
   },
   "Shelter": {
     "runeword": ["Co", "Co", "Mal"],
     "type": "shield",
-    "img": "./src/assets/runewords/shelter.png"
+    "img": "/static/assets/runewords/shelter.png"
   },
   "Sovereignty": {
     "runeword": ["Drax", "Lum", "Pul", "Ol"],
     "type": "weapon",
-    "img": "./src/assets/runewords/sovereignty.png"
+    "img": "/static/assets/runewords/sovereignty.png"
   },
   "Valkyrie": {
     "runeword": ["Qi", "Lem", "Old"],
     "type": "weapon",
-    "img": "./src/assets/runewords/valkyrie.png"
+    "img": "/static/assets/runewords/valkyrie.png"
   },
   "Lightforge": {
     "runeword": ["Naf", "Sal", "Uth"],
     "type": "helmet",
-    "img": "./src/assets/runewords/lightforce.png"
+    "img": "/static/assets/runewords/lightforce.png"
   },
   "Mjolner": {
     "runeword": ["Ert", "Ert", "Fel", "Gul"],
     "type": "weapon",
-    "img": "./src/assets/runewords/mjolner.png"
+    "img": "/static/assets/runewords/mjolner.png"
   },
   "Perdition": {
     "runeword": ["Hel", "Qi", "Um", "Xo", "Drax"],
     "type": "weapon",
-    "img": "./src/assets/runewords/perdition.png"
+    "img": "/static/assets/runewords/perdition.png"
   },
   "Ravager": {
     "runeword": ["Mal", "Um", "Gul", "Fel"],
     "type": "weapon",
-    "img": "./src/assets/runewords/ravager.png"
+    "img": "/static/assets/runewords/ravager.png"
   },
   "Shroud of Elements": {
     "runeword": ["Nut", "Um", "Pul", "Lum"],
     "type": "armor",
-    "img": "./src/assets/runewords/shroudOfElements.png"
+    "img": "/static/assets/runewords/shroudOfElements.png"
   },
   "Thinking Cap": {
     "runeword": ["Nut", "Io", "Thal"],
     "type": "helmet",
-    "img": "./src/assets/runewords/thinkingCap.png"
+    "img": "/static/assets/runewords/thinkingCap.png"
   },
   "Virulence": {
     "runeword": ["Tul", "Sur", "Sal"],
     "type": "weapon",
-    "img": "./src/assets/runewords/virulence.png"
+    "img": "/static/assets/runewords/virulence.png"
   },
   "Malice": {
     "runeword": ["Uth", "Ol", "Eth"],
     "type": "weapon",
-    "img": "./src/assets/runewords/malice.png"
+    "img": "/static/assets/runewords/malice.png"
   },
   "Mystify": {
     "runeword": ["Hel", "Ymn", "Naf"],
     "type": "armor",
-    "img": "./src/assets/runewords/mystify.png"
+    "img": "/static/assets/runewords/mystify.png"
   },
   "Potency": {
     "runeword": ["Ymn", "Nut", "Jah", "Xo"],
     "type": "weapon",
-    "img": "./src/assets/runewords/potency.png"
+    "img": "/static/assets/runewords/potency.png"
   },
   "Revelation": {
     "runeword": ["Lum", "Io", "Sal", "Eth"],
     "type": "weapon",
-    "img": "./src/assets/runewords/revelation.png"
+    "img": "/static/assets/runewords/revelation.png"
   },
   "Shroud of Enigma": {
     "runeword": ["Jah", "Uch", "Ber"],
     "type": "armor",
-    "img": "./src/assets/runewords/shroudOfEnigma.png"
+    "img": "/static/assets/runewords/shroudOfEnigma.png"
   },
   "Torment": {
     "runeword": ["Del", "Io"],
     "type": "weapon",
-    "img": "./src/assets/runewords/torment.png"
+    "img": "/static/assets/runewords/torment.png"
   },
   "Will of Thanos": {
     "runeword": ["Ymn", "Rex", "Mal", "Ist", "Qi"],
     "type": "weapon",
-    "img": "./src/assets/runewords/willOfThanos.png"
+    "img": "/static/assets/runewords/willOfThanos.png"
   },
   "Martyr": {
     "runeword": ["Thal", "Sal", "Ymn", "Lum"],
     "type": "weapon",
-    "img": "./src/assets/runewords/martyr.png"
+    "img": "/static/assets/runewords/martyr.png"
   },
   "Ninja Tabi": {
     "runeword": ["Zed", "Ber"],
     "type": "boots",
-    "img": "./src/assets/runewords/ninjaTabi.png"
+    "img": "/static/assets/runewords/ninjaTabi.png"
   },
   "Preacher": {
     "runeword": ["Rex", "Tor", "Tul", "Sal"],
     "type": "weapon",
-    "img": "./src/assets/runewords/preacher.png"
+    "img": "/static/assets/runewords/preacher.png"
   },
   "Scholar": {
     "runeword": ["Ert", "Sal"],
     "type": "helmet",
-    "img": "./src/assets/runewords/scholar.png"
+    "img": "/static/assets/runewords/scholar.png"
   },
   "Skysong": {
     "runeword": ["Uth", "Sal", "Nut", "Rex"],
     "type": "shield",
-    "img": "./src/assets/runewords/skysong.png"
+    "img": "./"
   },
   "Trapped Vessel": {
     "runeword": ["Lum", "Lum", "Tul"],
     "type": "weapon",
-    "img": "./src/assets/runewords/trappedVessel.png"
+    "img": "/static/assets/runewords/trappedVessel.png"
   },
   "Windstride": {
     "runeword": ["Del", "Old", "Hel", "Ist", "Tor", "Vex"],
     "type": "weapon",
-    "img": "./src/assets/runewords/windstride.png"
+    "img": "/static/assets/runewords/windstride.png"
   },
   "Mayhem": {
     "runeword": ["Nut", "Um", "Thal"],
     "type": "armor",
-    "img": "./src/assets/runewords/mayhem.png"
+    "img": "/static/assets/runewords/mayhem.png"
   },
   "Nirvana": {
     "runeword": ["Sur", "Sur", "Drax"],
     "type": "helmet",
-    "img": "./src/assets/runewords/nirvana.png"
+    "img": "/static/assets/runewords/nirvana.png"
   },
   "Quickstep": {
     "runeword": ["Ymn", "Del"],
     "type": "boots",
-    "img": "./src/assets/runewords/quickstep.png"
+    "img": "/static/assets/runewords/quickstep.png"
   },
   "Shadow": {
     "runeword": ["Tul", "Eth"],
     "type": "armor",
-    "img": "./src/assets/runewords/shadow.png"
+    "img": "/static/assets/runewords/shadow.png"
   },
   "Sleight": {
     "runeword": ["Tor", "Uth", "Sal", "Co"],
     "type": "weapon",
-    "img": "./src/assets/runewords/sleight.png"
+    "img": "/static/assets/runewords/sleight.png"
   },
   "True Aim": {
     "runeword": ["Jah", "Xo", "Mal", "Gul"],
     "type": "weapon",
-    "img": "./src/assets/runewords/trueaim.png"
+    "img": "/static/assets/runewords/trueaim.png"
   }
 }
