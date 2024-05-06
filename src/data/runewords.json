@@ -342,6 +342,6 @@
   "True Aim": {
     "runeword": ["Jah", "Xo", "Mal", "Gul"],
     "type": "weapon",
-    "img": "/static/assets/runewords/trueaim.png"
+    "img": "/static/assets/runewords/trueAim.png"
   }
 }
